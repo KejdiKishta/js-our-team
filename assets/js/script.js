@@ -1,7 +1,7 @@
 //* array di oggetti con tutte le informazioni
 let teamComponents = [
     {
-        photo: "gigi.jpeg",
+        photo: "gigi.png",
         name: "Gianluigi buffon",
         role: "Superman"
     },
@@ -11,22 +11,22 @@ let teamComponents = [
         role: "King Kong"
     },
     {
-        photo: "pirlo2.jpg",
+        photo: "pirlo.png",
         name: "Andrea Pirlo",
         role: "Il Maestro"
     },
     {
-        photo: "claudio.jpg",
+        photo: "claudio.png",
         name: "Claudio Marchisio",
         role: "Il Principino"
     },
     {
-        photo: "tevez.jpg",
-        name: "Carlos Tevez",
-        role: "L'apache"
+        photo: "paulo.png",
+        name: "Paulo Dybala",
+        role: "La Joya"
     },
     {
-        photo: "del_piero.jpg",
+        photo: "del_piero.png",
         name: "Alessandro Del Piero",
         role: "Pinturicchio"
     }
