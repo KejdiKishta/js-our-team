@@ -8,7 +8,7 @@ function print(array) {
         const curElem = array[i];
         cardSection.innerHTML +=
         `
-        <div class="col-4 px-2">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3 p-lg-0">
             <img src="./img/${curElem.photo}" alt="">
             <h5 class="pt-2 m-0">${curElem.name}</h5>
             <span>${curElem.role}</span>

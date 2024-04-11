@@ -6,7 +6,6 @@
 
 body {
     background: linear-gradient(to right, #000000 0%, #111111 50%, #222222 100%);
-    overflow: hidden;
 }
 
 img:not([id*='img']) {
@@ -41,4 +40,10 @@ img[id*='img'] {
 #img-4 {
     bottom: 10px;
     right: 0;
+}
+
+@media screen and (max-width: 570px) {
+    .ms_head_width {
+        width: 90%;
+    }
 }
