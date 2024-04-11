@@ -32,6 +32,7 @@ let teamComponents = [
     }
 ];
 
+//* stampa in console
 for (let i = 0; i < teamComponents.length; i++) {
     const curElement = teamComponents[i];
 
@@ -41,4 +42,7 @@ for (let i = 0; i < teamComponents.length; i++) {
         console.log(curElement[key]);
     }
     console.log("------------------");
-}
+};
+
+//* stampa nel DOM
+print(teamComponents);
