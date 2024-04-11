@@ -1,34 +1,34 @@
 //* array di oggetti con tutte le informazioni
 let teamComponents = [
     {
-        photo: "wayne-barnett-founder-ceo.jpg",
-        name: "Wayne Barnett",
-        role: "Founder & CEO"
+        photo: "gigi.jpeg",
+        name: "Gianluigi buffon",
+        role: "Superman"
     },
     {
-        photo: "angela-caroll-chief-editor.jpg",
-        name: "Angela Caroll",
-        role: "Chief Editor"
+        photo: "giorgio.png",
+        name: "Giorgio Chiellini",
+        role: "King Kong"
     },
     {
-        photo: "walter-gordon-office-manager.jpg",
-        name: "Walter Gordon",
-        role: "Office Manager"
+        photo: "pirlo2.jpg",
+        name: "Andrea Pirlo",
+        role: "Il Maestro"
     },
     {
-        photo: "angela-lopez-social-media-manager.jpg",
-        name: "Angela Lopez",
-        role: "Social Media Manager"
+        photo: "claudio.jpg",
+        name: "Claudio Marchisio",
+        role: "Il Principino"
     },
     {
-        photo: "scott-estrada-developer.jpg",
-        name: "Scott Estrada",
-        role: "Developer"
+        photo: "tevez.jpg",
+        name: "Carlos Tevez",
+        role: "L'apache"
     },
     {
-        photo: "barbara-ramos-graphic-designer.jpg",
-        name: "Barbara Ramos",
-        role: "Graphic Designer"
+        photo: "del_piero.jpg",
+        name: "Alessandro Del Piero",
+        role: "Pinturicchio"
     }
 ];
 

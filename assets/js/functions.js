@@ -10,7 +10,7 @@ function print(array) {
         `
         <div class="col-4 p-3">
             <img src="./img/${curElem.photo}" alt="">
-            <h4 class="pt-3 m-0">${curElem.name}</h4>
+            <h5 class="pt-3 m-0">${curElem.name}</h5>
             <span>${curElem.role}</span>
         </div>
         `;
