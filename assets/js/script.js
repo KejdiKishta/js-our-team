@@ -48,20 +48,18 @@ for (let i = 0; i < teamComponents.length; i++) {
 print(teamComponents);
 
 //* audio
-const anthem = function() {
-    let audio = document.getElementById("audio");
-    audio.play();
-}
-
-document.body.onload = anthem
+let audio = document.getElementById("audio");
 
 document.addEventListener("keydown", (event) => {
     switch (event.key) {
         case " ":
-            audio.pause();
+            if(audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
             break;
         default:
-            audio.play();
             break;
     }
 })
