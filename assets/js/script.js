@@ -46,3 +46,22 @@ for (let i = 0; i < teamComponents.length; i++) {
 
 //* stampa nel DOM
 print(teamComponents);
+
+//* audio
+const anthem = function() {
+    let audio = document.getElementById("audio");
+    audio.play();
+}
+
+document.body.onload = anthem
+
+document.addEventListener("keydown", (event) => {
+    switch (event.key) {
+        case " ":
+            audio.pause();
+            break;
+        default:
+            audio.play();
+            break;
+    }
+})
